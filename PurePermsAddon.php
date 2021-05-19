@@ -60,7 +60,7 @@ namespace JackMD\ScoreHud\Addons
 
 			if($levelName === null){
 				if(($prefix === null) || ($prefix === "")){
-					return "No Prefix";
+					return "No Prefix";	
 				}
 
 				return (string) $prefix;
